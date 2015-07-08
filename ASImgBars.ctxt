@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=initialLives\ numLives\ imgHeight
+comment0.target=ASImgBars(int,\ int,\ double)
+comment0.text=\r\n\ Constructs\ a\ bar\ that\ displays\ number\ of\ lives\ using\ hearts.\ Initializes\ the\ values\ for\ lives\ and\ image\ height\ as\ well.\r\n\r\n\ @param\ intialLives\ The\ user\ sets\ the\ value\ for\ the\ initial\ amount\ of\ lives\ \r\n\ @param\ numLives\ The\ user\ sets\ the\ value\ for\ max\ lives\ to\ 5\ here(different\ value\ can\ be\ set\ but\ this\ would\ require\ bar\ size\ changes).\ \r\n\ @param\ imgHeight\ The\ user\ sets\ the\ value\ for\ heart\ height\ to\ 32.0\ here.(different\ value\ can\ be\ set\ when\ the\ number\ of\ hearts\ is\ set\ to\ higher\ than\ 5)\ \ \ \r\n\ \ \ \ \ \ \r\n
+comment1.params=livesModified
+comment1.target=int\ update(int)
+comment1.text=\r\n\ Checks\ to\ see\ if\ current\ number\ of\ lives\ is\ above\ zero\ or\ below\ five\ so\ that\ \ \r\n\ changing\ lives\ will\ change\ nothing\ if\ lives\ are\ equal\ to\ zero\ or\ five.\r\n\ If\ lives\ are\ above\ zero\ then\ the\ number\ of\ lives\ can\ and\ will\ be\ decreased\ or\ increased\ (by\ specified\ amount)\ upon\ damage\ to\ the\ player\ or\ a\ power\ up.\r\n\ \r\n\ Runs\ updateImage()\ method\ to\ reconfigure\ number\ of\ hearts\ to\ match\ number\ of\ lives.\r\n\r\n\ @param\ livesModified\ Needs\ to\ be\ determined\ in\ the\ world\ before\ running\ the\ method.\ This\ is\ equal\ to\ the\ number\ of\ current\ lives\ as\ determined\ in\ the\ world\ class.\r\n\ @return\ int\ \ Returns\ number\ of\ lives\ as\ an\ integer\ (after\ subtraction\ or\ addition),\ otherwise\ returns\ 0\ or\ 5.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n
+comment2.params=
+comment2.target=void\ updateImage()
+comment2.text=\r\n\ \ Creates\ a\ base\ image\ for\ the\ hearts\ (representing\ lives)\ to\ be\ placed\ onto\r\n\ \ Sets\ background\ and\ border\ (of\ bar)\ to\ white\ so\ it\ is\ invisible.\r\n\ Creates\ a\ hearts\ object\ that\ stores\ the\ image\ for\ hearts.\r\n\ Uses\ a\ for\ loop\ to\ draw\ the\ hearts\ onto\ the\ base\ image\ accurate\ to\ a\ properly\ formatted\ size.\r\n\ Runs\ setImage()\ method\ (Greenfoot\ built\ in)\ to\ set\ the\ base\ image\ to\ have\ the\ right\ number\ of\ hearts\ on\ top\ of\ it.\r\n\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n
+numComments=3

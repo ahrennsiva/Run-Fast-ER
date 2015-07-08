@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Enemy()
+comment0.text=\r\n\ The\ constructor\ for\ enemy,\ where\ movement\ speed,\ and\ other\ variables\ are\ set\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Enemy\ wants\ to\ do.\ This\ is\ used\ to\ cause\ its\ change\ in\ direction\ at\ certain\ coordinates,\ as\ well\ as\ set\ images\ \r\n\ based\ on\ the\ character's\ direction.\ This\ also\ controls\ shooting\ at\ set\ time\ intervals.\r\n
+comment2.params=
+comment2.target=void\ shoot()
+comment2.text=\r\n\ Shooting\ method\ that\ generates\ a\ bullet,\ then\ adds\ the\ bullet\ object\ to\ map.\ Based\ on\ math\ engine\ of\ Greenfoot.\r\n
+comment3.params=
+comment3.target=boolean\ findTarget()
+comment3.text=\r\n\ Finds\ player\ to\ try\ and\ kill\ within\ it's\ viewing\ range.\r\n\ \r\n\ @return\ boolean\ \ \ the\ value\ of\ true\ or\ false\ of\ finding\ a\ player.\r\n
+comment4.params=
+comment4.target=double\ getRadRotation()
+comment4.text=\r\n\ Rotation\ method\ used\ by\ Greenfoot\ to\ find\ angle\ between\ current\ position\ and\ arc\ length\ to\ target.\r\n\ \r\n\ @return\ double\ \ \ the\ rotation\ in\ radians.\r\n
+comment5.params=
+comment5.target=void\ decreaseLives()
+comment5.text=\r\n\ Simple\ mutator\ used\ to\ decrease\ the\ lives\ of\ the\ enemy\ in\ the\ world\ class\ or\ upon\ contact\ with\ bullets.\r\n
+numComments=6

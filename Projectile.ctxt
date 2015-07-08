@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ hasHit()
+comment0.text=\r\n\ Abstract\ class\ for\ determining\ contact\ with\ another\ instance.\r\n
+comment1.params=
+comment1.target=void\ hitObject()
+comment1.text=\r\n\ Inflicts\ damage\ on\ the\ player\ or\ enemy\ being\ hit,\ and\ will\ then\ remove\ the\ bullet.\r\n\ \r\n\ \r\n
+comment2.params=
+comment2.target=boolean\ outOfBounds()
+comment2.text=\r\n\ Will\ return\ true\ once\ an\ object\ escapes\ from\ the\ boundaries\ of\ the\ map,\ if\ it\ doesn't\ make\ contact.\r\n\ \r\n\ \r\n
+numComments=3

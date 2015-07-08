@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=n\ wm
+comment0.target=GameOver(java.lang.String,\ WorldMap)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ GameOver.\r\n\ \r\n\ @param\ string\ get\ string\ for\ time\ display\r\n
+comment1.params=
+comment1.target=void\ act()
+numComments=2

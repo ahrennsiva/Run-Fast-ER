@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=velocityX\ velocityY\ angle
+comment0.target=EnemyBullet(double,\ double,\ int)
+comment0.text=\r\n\ Sets\ the\ velocities\ and\ angle\ of\ the\ bullet,\ based\ on\ values\ determined\ in\ the\ enemy\ class.\r\n\ \r\n\r\n\ \r\n\ @param\ velocityX\ Velocity\ in\ x-direction\r\n\ @param\ velocityY\ Velocity\ in\ y-direciton\r\n\ @param\ angle\ Angle\ between\ shot\ and\ player.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ method\ is\ used\ in\ each\ step\ of\ the\ enemy's\ bullet's\ movement.\r\n\ It\ consistently\ moves\ at\ the\ velocity\ set\ above.\r\n\ If\ there\ is\ a\ detection\ for\ outOfBounds\ or\ collision,\ the\ object\ will\ be\ removed\ and\ potentailly\ take\ away\ a\ life\ from\ the\ player.\r\n\r\n\ \r\n
+comment2.params=
+comment2.target=boolean\ hasHit()
+comment2.text=\r\n\ Checks\ if\ there\ is\ an\ object\ between\ the\ projectile\ to\ the\ vertical\ and\ horizontal\ velocity.\ If\ there\ is,\ it\ will\ point\ towards\ it\ and\ hit\ the\ player.\r\n\ \r\n\ @return\ boolean\ \ whether\ or\ not\ the\ bullet\ has\ hit\ an\ object.\r\n
+numComments=3

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Timer()
+comment0.text=\r\n\ The\ constructor\ for\ the\ timer\ class\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ method\r\n
+comment2.params=firstTime
+comment2.target=java.lang.String\ getTimeDifference(long)
+comment2.text=\r\n\ Gets\ the\ time\ difference\ between\ the\ startTime\ and\ the\ current\ time\r\n\ @param\ firstTime\ The\ starting\ time\ that\ you\ want\ to\ be\ subtracted\ from\ the\ current\ time\r\n\ @return\ Returns\ a\ string\ with\ the\ time\ difference\ in\ seconds\r\n
+numComments=3

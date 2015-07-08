@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=main
+comment0.target=Bullet(Player)
+comment0.text=\r\n\ This\ constructor\ is\ utilized\ to\ find\ the\ direction\ to\ shoot\ the\ buller,\ based\ on\ the\ position\ of\ the\ character.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ method\ is\ used\ in\ each\ step\ of\ the\ bullet's\ movement.\r\n\ It\ consistently\ moves\ at\ the\ xSpeed\ found\ earlier\r\n\ If\ there\ is\ a\ detection\ for\ outOfBounds\ or\ collision,\ the\ object\ will\ be\ removed\ and\ potentailly\ take\ away\ a\ life\ from\ the\ enemy.\r\n\r\n\ \r\n
+comment2.params=
+comment2.target=boolean\ hasHit()
+comment2.text=\r\n\ Checks\ if\ there\ is\ an\ object\ between\ the\ projectile\ to\ the\ vertical\ and\ horizontal\ velocity.\ If\ there\ is,\ it\ will\ point\ towards\ it\ and\ hit\ the\ enemy.\r\n\ \r\n\ @return\ boolean\ \ whether\ or\ not\ the\ bullet\ has\ hit\ an\ object.\r\n
+numComments=3
